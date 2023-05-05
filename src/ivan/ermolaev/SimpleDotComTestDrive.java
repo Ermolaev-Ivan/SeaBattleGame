@@ -1,4 +1,4 @@
-package gmail.thedollmaster2;
+package ivan.ermolaev;
 
 public class SimpleDotComTestDrive {
 

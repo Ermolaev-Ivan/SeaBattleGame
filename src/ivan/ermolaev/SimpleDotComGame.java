@@ -1,6 +1,5 @@
-package gmail.thedollmaster2;
+package ivan.ermolaev;
 
-import java.awt.*;
 import java.util.Scanner;
 
 public class SimpleDotComGame {
