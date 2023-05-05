@@ -29,3 +29,4 @@ build
 hs_err_pid*
 /settings.gradle
 /src/test/resources/config/credentials.properties
+/out/
