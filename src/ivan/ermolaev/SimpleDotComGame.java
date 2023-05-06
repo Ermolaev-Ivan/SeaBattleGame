@@ -1,16 +1,22 @@
 package ivan.ermolaev;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SimpleDotComGame {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        SimpleDotCom dot = new SimpleDotCom();
+        DotCom dot = new DotCom();
         String result = "";
         int numOfGuesses = 0;
         int firstPositionLocations = (int) (Math.random() * 4);
-        int[] locations = {firstPositionLocations, firstPositionLocations + 1, firstPositionLocations + 2};
+
+        ArrayList<String> locations = new ArrayList<>();
+
+        locations.add(Integer.toString(firstPositionLocations));
+        locations.add(Integer.toString(firstPositionLocations + 1));
+        locations.add(Integer.toString(firstPositionLocations + 2));
 
         dot.setLocationCells(locations);
 
