@@ -24,7 +24,7 @@ public class DotComBust {
         System.out.println("Попытайтесь потопить их за минимальное количество ходов.");
 
         for (DotCom dotComToSet : dotComList){
-            ArrayList<String> newLocation = helper.placeDotCome(3);
+            ArrayList<String> newLocation = helper.placeDotCom(3);
             dotComToSet.setLocationCells(newLocation);
         }
     }
@@ -34,6 +34,7 @@ public class DotComBust {
             String userGuess = helper.getUserInput("Сделайте ход");
             checkUserGuess(userGuess);
         }
+        finishGame();
     }
 
     private void checkUserGuess(String userGuess){
